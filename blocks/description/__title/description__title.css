@@ -1,0 +1,19 @@
+.description__title {
+    font-family: 'Inter-Black';
+    margin: 0;
+    max-width: 288px;
+    padding-top: 48px;
+    padding-bottom: 16px;
+    text-align: center;
+}
+
+@font-face {
+    font-family: 'Inter-Black';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 44px;
+    font-display: swap;
+    src: url(../../fonts/Inter-Black.woff)format("woff"),
+        url(../../fonts/Inter-Black.woff2)format("woff2");
+}
