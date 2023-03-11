@@ -1,0 +1,20 @@
+.places__item {
+  display: grid;
+  grid-template-columns: minmax(1fr, max-content) minmax(min-content, max-content);
+  /*  grid-template-columns: 440px 1fr;*/
+  grid-gap: 40px 88px;
+  grid-template-areas:
+    "title url"
+    "image text";
+}
+
+@media (max-width: 768px) {
+  .places__item {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "title"
+      "url"
+      "image"
+      "text";
+  }
+}

@@ -1,0 +1,17 @@
+.frames {
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 48px;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .frames {
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 768px) {
+  .frames {
+    padding: 0 16px;
+  }
+}

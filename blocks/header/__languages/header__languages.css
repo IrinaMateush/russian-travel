@@ -1,7 +1,16 @@
 .header__languages {
-    margin: 30px 16px 0 0;
-    padding: 0;
-    list-style-type: none;
-    display: flex;
+  font-family: 'Inter-Regular';
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 30px;
+  padding: 0;
+  list-style-type: none;
+  display: flex;
 }
 
+@media (max-width: 425px) {
+  .header__languages {
+    font-size: 18px;
+    line-height: 20px;
+  }
+}

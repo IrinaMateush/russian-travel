@@ -1,0 +1,12 @@
+.description__question {
+  font-family: 'Inter-Black';
+  font-size: 54px;
+  line-height: 58px;
+}
+
+@media (max-width: 425px) {
+  .description__question {
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
