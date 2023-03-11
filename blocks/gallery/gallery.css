@@ -23,7 +23,7 @@
     }
   }
 
-  @media (max-width: 767px) {
+  @media (min-width: 320px) and (max-width: 767px) {
     .gallery {
       grid-template-columns: 1fr;
       gap: 12px;

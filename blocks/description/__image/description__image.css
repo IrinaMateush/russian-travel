@@ -17,14 +17,16 @@
 @media (min-width: 768px) and (max-width: 1023px) {
   .description__image {
     width: 100%;
+    min-height: 480px;
     max-height: 480px;
-    padding: 0;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .description__image {
     width: 100%;
+    min-height: 200px;
     max-height: 200px;
+    display: block;
   }
 }

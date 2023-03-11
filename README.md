@@ -21,38 +21,3 @@
 Не забудьте [оптимизировать картинки](https://tinypng.com/), чтобы ваш сайт загружался быстрее.
 
 Удачи!
-
-
-Что не забыть:
-провериться по пиксель перфект
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .title {
-
-  }
-}
-
-@media (max-width: 425px) {
-  .title {
-
-  }
-}
-
-
-@media (min-width: 1024px) and (max-width: 1279px) {
-  .description__image {
-
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .description__image {
-
-  }
-}
-
-@media (min-width: 320px) and (max-width: 767px) {
-  .description__image {
-
-  }
-}

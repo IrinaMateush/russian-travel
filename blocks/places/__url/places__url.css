@@ -2,5 +2,11 @@
   grid-area: url;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .places__url {
+    margin: 32px 0;
+  }
 }
