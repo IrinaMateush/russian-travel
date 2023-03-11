@@ -1,7 +1,12 @@
-.places__link {
+.places__url_link {
   font-family: 'Inter-Regular';
   font-size: 18px;
   line-height: 22px;
   text-decoration-line: underline;
   color: white;
+  padding-top: 12px;
+}
+
+.places__url_link:hover {
+  opacity: 0.8;
 }

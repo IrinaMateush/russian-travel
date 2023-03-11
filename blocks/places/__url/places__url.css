@@ -1,3 +1,6 @@
 .places__url {
   grid-area: url;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }

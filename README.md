@@ -37,3 +37,22 @@
 
   }
 }
+
+
+@media (min-width: 1024px) and (max-width: 1279px) {
+  .description__image {
+
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .description__image {
+
+  }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .description__image {
+
+  }
+}

@@ -1,5 +1,11 @@
 .frames_narrow {
-  width: calc(100% - 100px*2);
+  width: calc(1280px - 100px*2);
+  box-sizing: border-box;
 }
 
 
+@media (max-width: 1024px) {
+  .frames_narrow {
+    width: 100%;
+  }
+}

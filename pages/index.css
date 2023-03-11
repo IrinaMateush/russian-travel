@@ -21,15 +21,18 @@
 @import url(../blocks/description/__question/description__question.css);
 @import url(../blocks/description/__subtitle/description__subtitle.css);
 @import url(../blocks/description/__title/description__title.css);
+@import url(../blocks/description/__text/description__text.css);
 
 @import url(../blocks/places/__image/places__image.css);
 @import url(../blocks/places/__item/places__item.css);
 @import url(../blocks/places/__list/places__list.css);
 @import url(../blocks/places/__title/places__title.css);
+@import url(../blocks/places/__text/places__text.css);
 @import url(../blocks/places/__description/places__description.css);
 @import url(../blocks/places/__url/places__url.css);
+@import url(../blocks/places/__url/_link/places__url_link.css);
 @import url(../blocks/places/__url/_label/places__url_label.css);
-@import url(../blocks/places/__link/places__link.css);
+
 
 @import url(../blocks/gallery/gallery.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
