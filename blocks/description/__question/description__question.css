@@ -1,6 +1,7 @@
 .description__question {
-  font-family: 'Inter-Black';
+  font-family: 'Inter';
   font-size: 54px;
+  font-weight: 900;
   line-height: 58px;
   padding-bottom: 40px;
   padding-top: 92px;
@@ -20,4 +21,3 @@
     line-height: 35px;
   }
 }
-

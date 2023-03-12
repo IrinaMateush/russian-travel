@@ -1,7 +1,8 @@
 .places__url_link {
-  font-family: 'Inter-Regular';
+  font-family: 'Inter';
   font-size: 18px;
   line-height: 22px;
+  font-weight: 400;
   text-decoration-line: underline;
   color: white;
   padding-top: 12px;

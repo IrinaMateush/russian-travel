@@ -3,7 +3,8 @@
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 16px;
-    margin-bottom: 92px;
+    margin: 0 auto 92px auto;
+    max-width: 1184px;
   }
 
   @media (min-width: 1024px) and (max-width: 1279px) {
@@ -11,6 +12,7 @@
       grid-template-columns: repeat(3, 1fr);
       grid-template-rows: repeat(4, 1fr);
       gap: 14px;
+      max-width: calc(100% - 48px*2);
     }
   }
 
@@ -20,6 +22,7 @@
       grid-template-rows: repeat(6, 1fr);
       gap: 16px;
       margin-bottom: 88px;
+      max-width: calc(100% - 24px*2);
     }
   }
 
@@ -28,5 +31,6 @@
       grid-template-columns: 1fr;
       gap: 12px;
       margin-bottom: 64px;
+      max-width: calc(100% - 16px*2);
     }
   }

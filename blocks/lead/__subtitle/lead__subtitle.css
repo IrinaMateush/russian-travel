@@ -1,28 +1,29 @@
-.description__subtitle {
-  font-family: 'Inter-Regular';
+.lead__subtitle {
+  font-family: 'Inter';
   margin: 0 auto;
   max-width: 640px;
   padding-bottom: 64px;
   text-align: center;
   font-size: 30px;
   line-height: 36px;
+  font-weight: 400;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {
-  .description__subtitle {
+  .lead__subtitle {
     padding-bottom: 56px;
   }
 }
 
 @media (min-width: 768px) and (max-width: 1023px) {
-  .description__subtitle {
+  .lead__subtitle {
     max-width: 540px;
     padding-bottom: 56px;
   }
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .description__subtitle {
+  .lead__subtitle {
     max-width: 270px;
     font-size: 16px;
     line-height: 20px;

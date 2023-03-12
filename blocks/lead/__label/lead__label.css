@@ -1,0 +1,22 @@
+.lead__label {
+  font-family: 'Inter';
+  margin: 0;
+  letter-spacing: 1.5px;
+  padding-top: 8px;
+  font-size: 10px;
+  line-height: 14px;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .lead__label {
+    padding-left: 24px;
+  }
+}
+
+@media (max-width: 767px) {
+  .lead__label {
+    padding-left: 16px;
+  }
+}
