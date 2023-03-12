@@ -14,9 +14,3 @@
     max-width: calc(100% - 24px*2);
   }
 }
-
-@media (min-width: 320px) and (max-width: 767px) {
-  .places {
-    max-width: calc(100% - 16px*2);
-  }
-}

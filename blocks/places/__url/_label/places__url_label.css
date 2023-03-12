@@ -5,3 +5,9 @@
   letter-spacing: 2px;
   font-weight: 400;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .places__url_label {
+    margin-top: 32px;
+  }
+}

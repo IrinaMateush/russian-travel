@@ -11,3 +11,9 @@
 .places__url_link:hover {
   opacity: 0.8;
 }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .places__url_link {
+    margin-bottom: 32px;
+  }
+}
