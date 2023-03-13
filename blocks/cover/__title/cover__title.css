@@ -5,6 +5,7 @@
   padding-top: 254px;
   font-size: 72px;
   line-height: 76px;
+  max-width: 520px;
 }
 
 
@@ -25,5 +26,6 @@
     font-size: 32px;
     line-height: 35px;
     padding-top: 16px;
+    max-width: 240px;
   }
 }
