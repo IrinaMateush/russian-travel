@@ -5,7 +5,7 @@
   justify-content: end;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .places__website {
     padding-left: 8px;
   }

@@ -5,13 +5,13 @@
   margin: 0 auto;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .lead {
     max-width: calc(100% - 48px*2);
   }
 }
 
-@media (min-width: 320px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .lead {
     max-width: 100%;
   }

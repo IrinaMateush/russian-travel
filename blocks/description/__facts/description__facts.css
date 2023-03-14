@@ -9,13 +9,13 @@
   padding-bottom: 92px;
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .description__facts {
     padding-bottom: 88px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .description__facts {
     padding-bottom: 64px;
   }

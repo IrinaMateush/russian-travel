@@ -3,19 +3,19 @@
   margin: 0 auto;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .description {
     max-width: calc(100% - 48px*2);
   }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (max-width: 1023px) {
   .description {
     max-width: calc(100% - 24px*2);
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .description {
     max-width: calc(100% - 16px*2);
   }

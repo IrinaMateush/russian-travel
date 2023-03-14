@@ -7,7 +7,7 @@
   text-transform: uppercase;
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .places__url {
     margin-top: 32px;
   }

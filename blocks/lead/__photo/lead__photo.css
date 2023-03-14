@@ -1,0 +1,26 @@
+.lead__photo {
+  width: 100%;
+  max-width: 984px;
+  max-height: 615px;
+  padding: 0;
+  object-fit: contain;
+}
+
+@media (max-width: 1279px) {
+  .lead__photo {
+    max-height: 580px;
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 1023px) {
+  .lead__photo {
+    max-height: 480px;
+  }
+}
+
+@media (max-width: 425px) {
+  .lead__photo {
+    max-height: 200px;
+  }
+}

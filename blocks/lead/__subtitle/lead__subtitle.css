@@ -8,20 +8,14 @@
   font-weight: 400;
 }
 
-@media (min-width: 1024px) and (max-width: 1279px) {
+@media (max-width: 1279px) {
   .lead__subtitle {
     padding-bottom: 56px;
-  }
-}
-
-@media (min-width: 768px) and (max-width: 1023px) {
-  .lead__subtitle {
     max-width: 540px;
-    padding-bottom: 56px;
   }
 }
 
-@media (min-width: 320px) and (max-width: 767px) {
+@media (max-width: 767px) {
   .lead__subtitle {
     max-width: 270px;
     font-size: 16px;

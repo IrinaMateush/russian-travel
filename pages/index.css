@@ -21,6 +21,7 @@
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
 @import url(../blocks/lead/__label/lead__label.css);
 @import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__photo/lead__photo.css);
 
 @import url(../blocks/places/places.css);
 @import url(../blocks/places/__image/places__image.css);
