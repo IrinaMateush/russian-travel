@@ -3,6 +3,8 @@
   line-height: 12px;
   letter-spacing: 2px;
   font-weight: 400;
+  color: #AAAAAA;
+  text-transform: uppercase;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {

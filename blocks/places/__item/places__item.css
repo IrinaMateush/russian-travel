@@ -1,11 +1,15 @@
 .places__item {
   margin-top: 80px;
   display: grid;
-  grid-template-columns: minmax(1fr, max-content) minmax(min-content, max-content);
+  grid-template-columns: 460px, 1fr;
   grid-gap: 48px 40px;
   grid-template-areas:
     "title url"
     "image text";
+}
+
+.places__item:first-child {
+  margin-top: 0;
 }
 
 @media (min-width: 1024px) and (max-width: 1279px) {

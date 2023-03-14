@@ -4,6 +4,7 @@
     max-width: 984px;
     max-height: 615px;
     padding: 0;
+    object-fit: cover;
   }
 }
 
