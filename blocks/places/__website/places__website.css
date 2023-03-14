@@ -1,0 +1,12 @@
+.places__website {
+  grid-area: url;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .places__website {
+    padding-left: 8px;
+  }
+}

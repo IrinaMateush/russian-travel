@@ -1,20 +1,22 @@
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts/fonts.css);
 @import url(../blocks/page/page.css);
+@import url(../blocks/link/link.css);
 @import url(../blocks/content/content.css);
 @import url(../blocks/title/title.css);
 
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
-@import url(../blocks/header/__languages/header__languages.css);
-@import url(../blocks/header/__languages/_ru/header__languages_ru.css);
-@import url(../blocks/header/__languages/_en/header__languages_en.css);
+@import url(../blocks/header/__links/header__links.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
+
 
 @import url(../blocks/description/description.css);
 @import url(../blocks/description/__fact/description__fact.css);
 @import url(../blocks/description/__facts/description__facts.css);
 @import url(../blocks/description/__text/description__text.css);
 @import url(../blocks/description/__question/description__question.css);
+@import url(../blocks/description/__count/description__count.css);
 
 @import url(../blocks/lead/lead.css);
 @import url(../blocks/lead/__title/lead__title.css);
@@ -29,15 +31,14 @@
 @import url(../blocks/places/__title/places__title.css);
 @import url(../blocks/places/__text/places__text.css);
 @import url(../blocks/places/__description/places__description.css);
+@import url(../blocks/places/__website/places__website.css);
+@import url(../blocks/places/__link/places__link.css);
 @import url(../blocks/places/__url/places__url.css);
-@import url(../blocks/places/__url/_link/places__url_link.css);
-@import url(../blocks/places/__url/_label/places__url_label.css);
 
-@import url(../blocks/gallery/gallery.css);
+@import url(../blocks/gallery/__list/gallery__list.css);
 @import url(../blocks/gallery/__image/gallery__image.css);
 
 @import url(../blocks/cover/cover.css);
-@import url(../blocks/cover/__img/cover__img.css);
 @import url(../blocks/cover/__link/cover__link.css);
 @import url(../blocks/cover/__title/cover__title.css);
 @import url(../blocks/cover/__subtitle/cover__subtitle.css);

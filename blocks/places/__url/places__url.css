@@ -1,12 +1,12 @@
 .places__url {
-  grid-area: url;
-  display: flex;
-  flex-direction: column;
-  justify-content: end;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  font-weight: 400;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
   .places__url {
-    padding-left: 8px;
+    margin-top: 32px;
   }
 }

@@ -1,4 +1,4 @@
-.places__url_link {
+.places__link {
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
@@ -7,12 +7,12 @@
   padding-top: 12px;
 }
 
-.places__url_link:hover {
+.places__link:hover {
   opacity: 0.8;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
-  .places__url_link {
+  .places__link {
     margin-bottom: 32px;
   }
 }
