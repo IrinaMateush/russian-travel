@@ -16,6 +16,6 @@
 
 @media (max-width: 767px) {
   .gallery__item {
-    max-height: 320px;
+    max-height: 216px;
   }
 }

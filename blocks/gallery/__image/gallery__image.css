@@ -16,3 +16,9 @@
     min-height: 264px;
   }
 }
+
+@media (max-width: 767px) {
+  .gallery__image {
+    min-height: 216px;
+  }
+}
