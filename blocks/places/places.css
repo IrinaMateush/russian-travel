@@ -14,3 +14,10 @@
     max-width: calc(100% - 24px*2);
   }
 }
+
+@media (max-width: 767px) {
+  .places {
+    width: 100%;
+    margin: 0;
+  }
+}
