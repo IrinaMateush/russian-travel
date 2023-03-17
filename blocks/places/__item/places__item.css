@@ -28,7 +28,7 @@
 
 @media (max-width: 767px) {
   .places__item {
-    margin-top: 64px;
+    margin-top: 50px;
     grid-template-columns: 1fr;
     grid-gap: 0;
     grid-template-areas:

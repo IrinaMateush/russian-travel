@@ -12,13 +12,14 @@
 
 @media (max-width: 1023px) {
   .places__text {
+    font-size: 16px;
     line-height: 26px;
+    padding-bottom: 25px;
   }
 }
 
 @media (max-width: 767px) {
   .places__text {
-    font-size: 16px;
-    padding: 0 16px;
+    margin: 0 16px;
   }
 }

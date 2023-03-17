@@ -3,7 +3,7 @@
   font-size: 18px;
   line-height: 22px;
   font-weight: 400;
-  max-width: 360px;
+  max-width: 375px;
   text-align: center;
 }
 
@@ -11,6 +11,6 @@
   .cover__subtitle {
     font-size: 14px;
     line-height: 16px;
-    max-width: 265px;
+    max-width: 277px;
   }
 }
