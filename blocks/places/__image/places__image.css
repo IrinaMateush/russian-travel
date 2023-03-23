@@ -1,5 +1,6 @@
 .places__image {
-  object-fit: contain;
+  object-fit: cover;
+  object-position: center bottom;
   max-width: 100%;
   width: 100%;
   max-height: 460px;
@@ -16,7 +17,6 @@
   .places__image {
     max-height: 340px;
     max-width: 340px;
-    margin: 0 auto;
   }
 }
 
@@ -24,7 +24,7 @@
   .places__image {
     min-height: 320px;
     width: 100%;
-    margin-bottom: 32px;
+    padding-bottom: 32px;
+    margin: 0 auto;
   }
 }
-
