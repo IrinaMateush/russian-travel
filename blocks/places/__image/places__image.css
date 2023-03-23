@@ -16,6 +16,7 @@
   .places__image {
     max-height: 340px;
     max-width: 340px;
+    margin: 0 auto;
   }
 }
 
